@@ -69,12 +69,12 @@ footer {
 }
 
 footer a {
-  color: inherit; /* Inherit the color from the parent element */
-  text-decoration: none; /* Remove the default underline */
+  color: inherit;
+  text-decoration: none;
 }
 
 footer a:hover {
-  text-decoration: underline; /* Add underline on hover */
+  text-decoration: underline;
 }
 
 @keyframes rotate {
