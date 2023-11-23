@@ -31,11 +31,11 @@ function refreshDice() {
 
         // Update the result text
         if (checker === 1)
-            text.innerHTML = "Player WIN !";
+            text.innerHTML = "Player Wins! 🚩";
         else if (checker === 2)
-            text.innerHTML = "CPU WIN ! You're so Bad...";
+            text.innerHTML = "CPU Wins ! You're so Bad... 👎🏾";
         else
-            text.innerHTML = "Draw !";
+            text.innerHTML = "Try again ! 😒";
     }, 1000); // Adjust the duration based on your preference
 }
 
